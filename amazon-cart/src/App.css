@@ -1,4 +1,14 @@
+
+body{
+  background-color: whitesmoke;
+}
 .App {
   text-align: center;
 }
+
+.App-main{
+  display: flex;
+  padding: 15px;
+}
+
 
