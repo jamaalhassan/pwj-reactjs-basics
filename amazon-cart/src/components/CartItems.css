@@ -7,5 +7,15 @@
   }
   .CartItems h1{
     text-align: left;
-    padding: 15px;
+    margin: 15px;
+  }
+  .CartItem{
+    display: flex;
+  }
+  .CartInfo{
+    flex-grow: 1;
+  }
+  .CartTotal{
+    background-color: white;
+      flex: 30%;
   }
