@@ -9,6 +9,8 @@ body{
 .App-main{
   display: flex;
   padding: 15px;
+  align-items: flex-start;
+
 }
 
 

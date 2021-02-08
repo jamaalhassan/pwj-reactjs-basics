@@ -1,1 +1,33 @@
 
+.CartTotal{
+    background-color: white;
+      flex: 30%;
+
+  }
+  
+.CartTotal h1{
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.CartTotal .CarTotal-price{
+    margin-left: 15px;
+
+}
+
+.CartTotal button{
+    background-color: orange;
+    padding: 8px 8px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 2px solid #a27115;
+    border-radius: 7px;
+    color: #0a2546;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: #0000002b 0px 0px 2px 1px;
+    width: 100%;
+
+}
+.CartTotal button:hover{
+   background-color: #eca31a; 
+}

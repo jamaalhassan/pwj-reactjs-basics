@@ -16,23 +16,17 @@
     border-bottom: 1px solid grey;
     padding-bottom: 15px;
 
-
-
-
   }
   .CartInfo{
     flex-grow: 1;
   }
-  .CartTotal{
-    background-color: white;
-      flex: 30%;
-  }
+  
   .CartPrice{
-font-size: 18px;
-font-weight: bold;
-margin-left: 15px;
-
-  }
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+      }
   .CartTitle h1{
     margin: 0;
     font-size: 18px;
