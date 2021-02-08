@@ -1,0 +1,91 @@
+
+
+.CartItems{
+    background-color: white;
+    flex: 70%;
+    margin-right: 15px;
+  }
+  .CartItems h1{
+    text-align: left;
+    margin: 15px;
+   
+  }
+  .CartItem{
+    display: flex;
+    margin: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+
+
+
+
+  }
+  .CartInfo{
+    flex-grow: 1;
+  }
+  .CartTotal{
+    background-color: white;
+      flex: 30%;
+  }
+  .CartPrice{
+font-size: 18px;
+font-weight: bold;
+margin-left: 15px;
+
+  }
+  .CartTitle h1{
+    margin: 0;
+    font-size: 18px;
+    color: mediumseagreen;
+
+  }
+  .quantity-info{
+    display: flex;
+    align-items: baseline;
+
+
+  }
+  .instock{
+    color: forestgreen;
+    font-weight: bold;
+    text-align: start;
+    margin: 5px 0px;
+
+  }
+  .Delete{
+    color: mediumseagreen;
+    align-self: center;
+font-weight: bold;
+
+  }
+  .Delete:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  select{
+    box-shadow: #0000002b 0px 0px 2px 1px;
+    background-color: #eeeded;
+    padding: 7px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+
+  }
+  .dived{
+    margin: 0 5px;
+    color: grey;
+
+  }
+  .CartImage{
+    width: 180px;
+    height: 180px;
+    margin-right: 15px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+  }
+  .CartImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;    
+  }
