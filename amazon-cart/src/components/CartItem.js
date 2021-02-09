@@ -1,6 +1,6 @@
 
 import React from 'react'
-function CartItem({index,items,changeItemQuantity}) {
+function CartItem({index,items,changeItemQuantity,deleteItem}) {
     return (
         // <div className="CartItems">
         
@@ -28,7 +28,7 @@ function CartItem({index,items,changeItemQuantity}) {
  
                   </select>
                   <div className="dived">|</div>                    
-                  <div className="Delete">
+                  <div className="Delete" onClick={deleteItem.bind(this,index)}>
                       Delete
                   </div>
                   

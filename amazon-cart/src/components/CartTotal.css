@@ -2,7 +2,7 @@
 .CartTotal{
     background-color: white;
       flex: 30%;
-
+    min-width: 300px;
   }
   
 .CartTotal h1{

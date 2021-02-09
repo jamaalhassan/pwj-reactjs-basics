@@ -12,15 +12,17 @@ function CartItems({items,setCart}) {
         let newItem = [...items];
         setCart(newItem);
     }
-    const QtyValue = () => {
-        console.log('htmlqty',Option.target)
+    const deleteItem = (indexItemDelete) => {
+     let newItems = items.filter((value,index) => {
+            return index !== indexItemDelete;
+        })
+        setCart(newItems)        
     }
     return (
         <div className="CartItems">
             <h1>Shopping Cart</h1>
         <hr/>
-        {items.map((item,index) =>  <CartItem index={index} items={item} key={index} changeItemQuantity={changeItemQty}/>)}
-            {QtyValue()}
+        {items.map((item,index) =>  <CartItem index={index} items={item} key={index} changeItemQuantity={changeItemQty} deleteItem={deleteItem}/>)}
           
             
         </div>
